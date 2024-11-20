@@ -1,0 +1,5 @@
+version=1
+title=Ex Aqua
+description=Adds small tweaks to the game to enable playing zomboid as a waterblock survival game. Best played with Tchernobill's Water World mod and MassCraxx's Fishing+.
+tags=waterworld, tweaks, QOL
+visibility=public

@@ -1,0 +1,25 @@
+module Base
+{
+    recipe Make Fish Glue
+    {
+        [Recipe.GetItemTypes.FishMeat];100,
+
+        Result:Glue=1,
+        Sound:SliceMeat,
+        Time:50.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+
+    recipe Fix Wooden Plank
+        {
+            UnusableWood=4,
+            Glue=2,
+
+            Result:Plank,
+            Sound:Sawing,
+            Time:50.0,
+            Category:Carpentry,
+            OnGiveXP:Recipe.OnGiveXP.Cooking3,
+        }
+}

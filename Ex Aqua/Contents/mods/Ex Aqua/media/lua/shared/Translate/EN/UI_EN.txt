@@ -1,0 +1,4 @@
+UI_EN = {
+    UI_trait_WaterWorldStart = "Water World Start",
+    UI_trait_WaterWorldStartDesc = "Adds starting equipment for the Water World start.",
+}
